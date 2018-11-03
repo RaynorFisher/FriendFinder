@@ -5,8 +5,8 @@
 This is an app utilizing Node and Express. 
 We form a server that allows us to make matches between friends using a survey format. 
 
-### Use
-The local host is 4000 and can be activated in the repository via the terminal with the command: node server.js.
+### Use **EDIT host was changed to 4000
+The local host is **3000 and can be activated in the repository via the terminal with the command: node server.js.
 ![Terminal](/images/term.png)
 
 When the survey is completed a log of the current friend list in the server is displayed as shown above. 
