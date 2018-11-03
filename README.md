@@ -1,7 +1,7 @@
 # FriendFinder
 ![Homepage](/images/home.png)
 
-##Into
+## Intro
 This is an app utilizing Node and Express. 
 We form a server that allows us to make matches between friends using a survey format. 
 
