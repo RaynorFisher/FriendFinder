@@ -1,0 +1,22 @@
+var express = require('express');
+var bodyParser = require('body-parser');
+var path = require('path');
+
+//express!
+var app = express(); 
+var PORT = process.env.PORT || 4000; 
+
+// I wasn't very familiar with this body Parser section, I need to clarify it. 
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({extended: true}));
+app.use(bodyParser.text());
+app.use(bodyParser.json({type:'application/vnd.api+json'}));
+
+
+require('./app/routing/apiRoutes.js')(app); 
+require('./app/routing/htmlRoutes.js')(app);
+
+//This revs up the hyper drive. 
+app.listen(PORT, function() {
+	console.log("App listening on PORT: " + PORT);
+});

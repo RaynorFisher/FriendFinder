@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>FriendFinder</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.jquery.min.js"></script>
+
+</head>
+<body background= "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACoCAMAAABt9SM9AAAAA1BMVEXpdFFWdgtlAAAAR0lEQVR4nO3BAQEAAACCIP+vbkhAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAO8GxYgAAb0jQ/cAAAAASUVORK5CYII=">
+
+	<div class="container">
+
+		<h2>Questions</h2>
+		<hr>
+
+		<h3><strong>About You</strong></h3>
+		<h4>Your Name (Please use galactic basic lettering)</h4>
+		<input type="text" name="" id="name" class="form-control" required >
+
+		<h4>Link to your Holo-Image (Necessary for Identification Purposes)</h4>
+		<input type="text" name="" id="photo" class="form-control" required >
+
+		<hr>
+
+		<h3><strong>Question 1</strong></h3>
+		<h4>You are creative with escape routes and heist plans.</h4>
+	 	<select data-placeholder="" class="chosen-select" id="question1">
+	 		<option value=""></option>
+            <option value="1">1 (I love getting captured)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (I've already successfully robbed the Itergalactic Banking Clan)</option>
+      	</select>
+
+		<h3><strong>Question 2</strong></h3>
+		<h4>You have gritty experience on the outer rim worlds.</h4>
+	 	<select data-placeholder="" class="chosen-select" id="question2">
+	 		<option value=""></option>
+            <option value="1">1 (What's Tatooine, some kind of soup?)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (I've been to Malastare and lived, TWICE.)</option>
+      	</select>
+
+
+		<h3><strong>Question 3</strong></h3>
+		<h4>Do you drop your cargo and the first sign of Imperials?</h4>
+	 	<select data-placeholder="" class="chosen-select" id="question3">
+	 		<option value=""></option>
+            <option value="1">1 (IMPERIALS? WHERE??)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (I'm the best smuggler in the galaxy. )</option>
+      	</select>
+
+
+		<h3><strong>Question 4</strong></h3>
+		<h4>Have you been curioius about what a Sarlacc pit looks like on the inside?</h4>
+	 	<select data-placeholder="" class="chosen-select" id="question4">
+	 		<option value=""></option>
+            <option value="1">1 (Sarlacc? That sounds neat, I should jump in!)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (I know when i should keep to myself. )</option>
+      	</select>
+
+
+		<h3><strong>Question 5</strong></h3>
+		<h4>You don't get mad when you loose a game of Sabacc.</h4>
+	 	<select data-placeholder="" class="chosen-select" id="question5">
+	 		<option value=""></option>
+            <option value="1">1 (I HATE LOSING.)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (No big deal, I'll just win the next one with this Ace up my sleeve.)</option>
+      	</select>
+
+
+		<h3><strong>Question 6</strong></h3>
+		<h4>You understand why protocol droids ask stupid questions sometimes.</h4>
+	 	<select data-placeholder="" class="chosen-select" id="question6">
+	 		<option value=""></option>
+            <option value="1">1 (It's just a droid. )</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Those bucket of bolts can be pretty complex sometimes.)</option>
+      	</select>
+
+
+		<h3><strong>Question 7</strong></h3>
+		<h4>You are a great liar.</h4>
+	 	<select data-placeholder="" class="chosen-select" id="question7">
+	 		<option value=""></option>
+            <option value="1">1 (YES, uhh, I mean, no, well, maybe.)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (I once tricked a Toydarian into selling me a starship for half price.)</option>
+      	</select>
+
+		<h3><strong>Question 8</strong></h3>
+		<h4>Do you believe in the force?</h4>
+	 	<select data-placeholder="" class="chosen-select" id="question8">
+	 		<option value=""></option>
+            <option value="1">1 (Hokey religions and ancient weapons are no match for a good blaster at your side, kid.)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (May the force be with you, always.)</option>
+      	</select>
+
+		<h3><strong>Question 9</strong></h3>
+		<h4>Are you comfortable with hyperspace and light speed travel?</h4>
+	 	<select data-placeholder="" class="chosen-select" id="question9">
+	 		<option value=""></option>
+            <option value="1">1 (BARF)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (PUNCH IT)</option>
+      	</select>
+
+		<h3><strong>Question 10</strong></h3>
+		<h4>Are you open to being a part of a bigger crew? .</h4>
+	 	<select data-placeholder="" class="chosen-select" id="question10">
+	 		<option value=""></option>
+            <option value="1">1 (I prefer to work in smaller groups.)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (The more the merrier I suppose. )</option>
+      	</select>
+
+		<br>
+		<br>
+		<button type="submit" class="btn btn-primary btn-lg btn-block" id="submit"><i class="fa fa-check-circle" aria-hidden="true"></i>
+ Submit</button>
+
+		<hr>
+
+	</div>
+    <footer class="footer">
+            <div class="container">
+                  <p><a href="/api/friends">API Friends List</a> | <a href="https://github.com/RaynorFisher/FriendFinder">GitHub Repo</a></p>
+            </div>
+
+	<div id="resultsModal" class="modal fade" role="dialog">
+	  <div class="modal-dialog">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal">&times;</button>
+	        <h2 class="modal-title"><strong></strong></h2>
+	      </div>
+	      <div class="modal-body">
+	        <h2 id="matchName"></h2>
+	        <img id="matchImg" src= alt="">
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	      </div>
+	    </div>
+
+	  </div>
+	</div>
+
+  
+  
+  
+  
+  <script type="text/javascript">
+ var config = {
+      '.chosen-select'           : {},
+      '.chosen-select-deselect'  : {allow_single_deselect:true},
+      '.chosen-select-no-single' : {disable_search_threshold:10},
+      '.chosen-select-no-results': {no_results_text:'Oops, nothing found!'},
+      '.chosen-select-width'     : {width:"95%"}
+    }
+    for (var selector in config) {
+      $(selector).chosen(config[selector]);
+    }
+ 
+    $("#submit").on("click", function(){
+
+//This part was tricky for me, it is a form validation section with AJAX
+    	function retinaHoloscan() {
+		  var isValid = true;
+		  $('.form-control').each(function() {
+		    if ( $(this).val() === '' )
+		        isValid = false;
+		  });
+
+		  $('.chosen-select').each(function() {
+
+		  	if( $(this).val() === "")
+		  		isValid = false
+		  })
+		  return isValid;
+		}
+
+
+		if (retinaHoloscan() == true)
+		{   var userData = {
+	    		name: $("#name").val(),
+	    		photo: $("#photo").val(),
+	    		scores: [$("#question1").val(), $("#question2").val(), $("#question3").val(), $("#question4").val(), $("#question5").val(), $("#question6").val(), $("#question7").val(), $("#question8").val(), $("#question9").val(), $("#question10").val(), ]
+	    	}
+            var currentPlanet = window.location.origin;
+//remember! $ Ajax is your friend mmk?
+	    	$.post(currentPlanet + "/api/friends", userData, function(data){
+	    		$("#matchName").text(data.name);
+	    		$('#matchImg').attr("src", data.photo);
+		    	$("#resultsModal").modal('toggle');
+	    	});
+		}
+		else
+		{
+			alert("The galactic Friend Finder app requires that you fill out all fields.");
+		}
+    	
+    	return false;
+    });
+
+
+  </script>
+
+</body>
+</html>
